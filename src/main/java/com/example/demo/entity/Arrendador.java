@@ -30,6 +30,6 @@ public class Arrendador {
     private int UbicacionBusqueda;
     private String EstadoSolicitudArrendamiento;
     private String PagoArriendo;
-    private int CalificacionFinca;
+    private int CalificacionFinca; 
     private int CalificacionArrendatario;
 }
