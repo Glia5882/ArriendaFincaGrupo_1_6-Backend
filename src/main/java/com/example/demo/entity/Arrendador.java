@@ -19,14 +19,17 @@ import lombok.Setter;
 @AllArgsConstructor
 @Where(clause = "status = 0")
 @SQLDelete(sql = "UPDATE application SET  status = 1 WHERE id=?")
-public class Application {
+public class Arrendador {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-    private String nombres;
-    private String apellidos;
-    private String correos;
-    private int semestre;
-    private String descripcion;
+    private String NombreUsuario;
+    private String CorreoElectronico;
+    private String FincasArrendadas;
+    private int UbicacionBusqueda;
+    private String EstadoSolicitudArrendamiento;
+    private String PagoArriendo;
+    private int CalificacionFinca;
+    private int CalificacionArrendatario;
 }
