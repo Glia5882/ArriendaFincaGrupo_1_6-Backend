@@ -1,0 +1,71 @@
+.barra {
+    background-color: transparent; /* Inicialmente transparente */
+    color: white;
+    padding: 10px 0;
+    cursor: pointer; /* Cambiar el cursor a un puntero */
+    text-align: right;
+    transition: background-color 0.5s; /* Efecto de transición suave */
+}
+
+.barra.active {
+    background-color: #333; /* Color de fondo cuando está activa */
+}
+
+.barra ul {
+    list-style-type: none; /* Elimina los bullets de la lista */
+    margin: 0; /* Elimina el margen por defecto */
+    padding: 0; /* Elimina el relleno por defecto */
+}
+
+.barra ul li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin-right: 20px; /* Espaciado entre elementos de la lista */
+}
+
+.barra ul li a {
+    color: white; /* Color de los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+body {
+    background-image: url('/src/main/resources/static/grupo16/imagenes/FincaPaginaPrincipal.jpg'); /* Ruta a tu imagen */
+    background-size: cover; /* Cubre todo el fondo */
+    background-position: center; /* Centra la imagen en la página */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    margin: 0; /* Elimina cualquier margen por defecto */
+    font-family: 'Optima', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.presentacion {
+    text-align: center; /* Centra el texto */
+    padding: 50px 0; /* Agrega espacio arriba y abajo */
+}
+
+.presentacion h1 {
+    color: red; /* Color del título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+.presentacion p {
+    color: gray; /* Color del párrafo */
+}
+
+.boton {
+    background-color: red; /* Color de fondo  */
+    color: white; /* Color del texto */
+    border-radius: 20px; /* Esquinas redondeadas */
+    padding: 10px 25px; /* Tamaño del botón */
+    cursor: pointer; /* Cambiar el cursor a un puntero */
+    outline: none; /* Eliminar el borde al hacer foco */
+    font-size: 16px; /* Tamaño del texto */
+    font-weight: bold; /* Fuente en negrita */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave al cambiar colores */
+    margin-top: 20px; /* Espacio arriba del botón */
+}
+
+
+.boton_centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
