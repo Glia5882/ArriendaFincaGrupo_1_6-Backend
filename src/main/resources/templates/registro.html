@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="grupo16/proyecto/registro.css">
+</head>
+<body>
+
+<div class="login-container">
+    <div class="login-form">
+        <h1>Registrarse</h1>
+        <p>¿Ya tienes una cuenta? <a href="/grupo16/proyecto/iniciarSesion.html" class="signin-link">Inicia sesión</a></p>
+        
+        <form id="registro">
+            <div class="input-group">
+                <label for="nombreUsuario">Nombre de usuario</label>
+                <input type="text" id="nombreUsuario" required>
+            </div>
+
+            <div class="input-group">
+                <label for="contraseña">Contraseña</label>
+                <input type="password" id="contraseña" required>
+            </div>
+
+            <div class="input-group">
+                <label for="correoElectronico">Correo electrónico</label>
+                <input type="email" id="correoElectronico" required>
+            </div>
+
+            <div class="input-group">
+                <label for="tipoUsuario">Tipo de usuario</label>
+                <select id="tipoUsuario" required>
+                    <option value="arrendador">Arrendador</option>
+                    <option value="arrendatario">Arrendatario</option>
+                </select>
+            </div>
+            
+            <button type="submit" class="register-button">Registrarse</button>
+        </form>
+    </div>
+</div>
+
+<!-- AQUI VA EL JS--->
+</body>
+</html>

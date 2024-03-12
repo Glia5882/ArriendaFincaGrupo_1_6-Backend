@@ -24,12 +24,14 @@ public class Arrendador {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-    private String NombreUsuario;
-    private String CorreoElectronico;
-    private String FincasArrendadas;
-    private int UbicacionBusqueda;
-    private String EstadoSolicitudArrendamiento;
-    private String PagoArriendo;
-    private int CalificacionFinca; 
-    private int CalificacionArrendatario;
+    private String tipoUsuario;
+    private String nombreUsuario;
+    private String contraseña;
+    private String correoElectronico;
+    private String fincasArrendadas;
+    private int ubicacionBusqueda;
+    private String estadoSolicitudArrendamiento;
+    private String pagoArriendo;
+    private int calificacionFinca; 
+    private int calificacionArrendatario;
 }
